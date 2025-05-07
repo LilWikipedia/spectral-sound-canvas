@@ -18,7 +18,7 @@ const Index = () => {
               href="https://github.com/lovable-dev" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-sm text-gray-400 hover:text-white transition-colors"
+              className="text-sm text-gray-400 hover:text-white transition-colors"I'm
             >
               About
             </a>
@@ -35,9 +35,7 @@ const Index = () => {
           <div className="bg-[#151515] p-6 rounded-lg border border-gray-800">
             <h2 className="text-xl font-medium mb-4">About Spectral Sound Canvas</h2>
             <p className="text-gray-300">
-              This real-time audio spectrum analyzer visualizes the frequency content of your audio input.
-              Select an audio device, choose your preferred visualization style, and explore the 
-              spectral characteristics of different sounds.
+              This real-time audio spectrum analyzer that seperates the gutz from the screen with hdmi coming soon!
             </p>
             
             <Separator className="my-6 bg-gray-800" />
