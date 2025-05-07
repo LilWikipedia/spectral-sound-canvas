@@ -18,7 +18,7 @@ const Index = () => {
               href="https://github.com/lovable-dev" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-sm text-gray-400 hover:text-white transition-colors"I'm
+              className="text-sm text-gray-400 hover:text-white transition-colors"
             >
               About
             </a>
@@ -41,7 +41,7 @@ const Index = () => {
             <Separator className="my-6 bg-gray-800" />
             
             
-            </ul>
+            
           </div>
         </div>
       </main>
@@ -51,8 +51,10 @@ const Index = () => {
           <p></p>
         </div>
       </footer>
-    </div>
+    
   );
 };
 
 export default Index;
+
+</div>
