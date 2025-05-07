@@ -53,7 +53,7 @@ const Index = () => {
       </footer>
     
   );
-};
+;
 
 export default Index;
 
