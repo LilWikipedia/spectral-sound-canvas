@@ -51,10 +51,8 @@ const Index = () => {
           <p></p>
         </div>
       </footer>
-    
+    </div>
   );
-;
+}
 
 export default Index;
-
-
