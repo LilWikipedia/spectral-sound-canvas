@@ -9,9 +9,9 @@ const Index = () => {
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <div>
             <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#00ffcc] to-[#0088ff]">
-              Spectral Sound Canvas
+              Joe's million dollar idea
             </h1>
-            <p className="text-sm text-gray-400">Real-time audio frequency visualization</p>
+            <p className="text-sm text-gray-400">Real-time analyzation</p>
           </div>
           <div className="flex items-center">
             <a 
@@ -42,12 +42,7 @@ const Index = () => {
             
             <Separator className="my-6 bg-gray-800" />
             
-            <h3 className="text-lg font-medium mb-3">Technical Details</h3>
-            <ul className="list-disc list-inside text-gray-300 space-y-2">
-              <li>Uses the Web Audio API for real-time audio processing</li>
-              <li>Analyzes frequencies using Fast Fourier Transform (FFT)</li>
-              <li>Visualizes frequencies from 20Hz to 20kHz (human hearing range)</li>
-              <li>Renders on HTML canvas with optimized performance</li>
+            
             </ul>
           </div>
         </div>
@@ -55,7 +50,7 @@ const Index = () => {
 
       <footer className="border-t border-gray-800 py-4 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto text-center text-sm text-gray-500">
-          <p>© 2025 Spectral Sound Canvas. Built with the Web Audio API.</p>
+          <p></p>
         </div>
       </footer>
     </div>
