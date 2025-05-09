@@ -14,12 +14,7 @@ const Index = () => {
             <p className="text-sm text-gray-400">Real-time analyzation</p>
           </div>
           <div className="flex items-center">
-            <a 
-              href="https://github.com/lovable-dev" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-sm text-gray-400 hover:text-white transition-colors"
-            >
+            <a>
               About
             </a>
           </div>

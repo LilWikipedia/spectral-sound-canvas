@@ -316,7 +316,7 @@ const AudioAnalyzer: React.FC = () => {
               className={`rounded-l-md rounded-r-none px-3 ${
                 visualizationType === "bar" ? "bg-accent" : "bg-secondary"
               }`}
-              aria-label="Bar chart"
+              aria-label="standard"
             >
               <ChartBar className="h-4 w-4" />
             </Toggle>
@@ -326,7 +326,7 @@ const AudioAnalyzer: React.FC = () => {
               className={`rounded-r-md rounded-l-none px-3 ${
                 visualizationType === "line" ? "bg-accent" : "bg-secondary"
               }`}
-              aria-label="Line chart"
+              aria-label="experimental(HEY this might crash app!)"
             >
               <ChartLine className="h-4 w-4" />
             </Toggle>
@@ -357,7 +357,7 @@ const AudioAnalyzer: React.FC = () => {
           <div className="absolute inset-0 flex items-center justify-center bg-black/50">
             <p className="text-gray-300">
               {selectedDeviceId 
-                ? "Click Start Analysis to begin" 
+                ? "Click Start to start audio input" 
                 : "Please select an audio input device"}
             </p>
           </div>
@@ -365,11 +365,18 @@ const AudioAnalyzer: React.FC = () => {
       </div>
       
       <div className="text-sm text-gray-400">
-        <p>Tips:</p>
+        <p>background:</p>
         <ul className="list-disc list-inside ml-4 space-y-1">
-          <li>Play music or speak into your microphone to see the visualization</li>
-          <li>Try different visualization types to see frequency patterns</li>
-          <li>For best results, use an external microphone or audio interface</li>
+          <li>This is Joe's million dollar idea</li>
+          <li>Since I love the technical aspects of sound design,</li>
+          <li>and I fansty myself somewhat of a programmer- </li>
+          <li>I decided to build his idea and it came out pretty cool!</li>
+          <li>Takes audio from a device input and gets the byte data and places it in an array</li>
+          <li>then i draw a grid, and display the array in ascending order and in</li>
+          <li>in seperate chunks (the bars) and use a gradient coloring to fill those bars is a jist of it</li>
+          <li>Built by Lil Wikipedia aka Cruz Wootten</li>
+          <li>find all the source code on my github here: https://github.com/LilWikipedia/spectral-sound-canvas</li>
+          
         </ul>
       </div>
     </div>
